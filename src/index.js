@@ -5,16 +5,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals'; 
+import Ghibli from './components/Ghibli'
 
-
+// TODO: Step 1: Make your first component!
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Ghibli />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-
-reportWebVitals();
