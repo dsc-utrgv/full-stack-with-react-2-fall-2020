@@ -5,13 +5,16 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Ghibli from './components/Ghibli'
 
-// TODO: Step 1: Make your first component!
-ReactDOM.render(
-  <React.StrictMode>
-    <Ghibli />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
+
+// TODO: Step 1: Make your first component
+class App extends React.Component {
+  render(){
+    return (
+      null
+    )
+  }
+}
+
+// TODO: Step 2: Call component using ReactDom.Render()
