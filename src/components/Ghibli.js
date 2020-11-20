@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { fetchInformation } from '../utils/api'
 
-function InformationNav({ active, onUpdateTab}) {
+function InformationNav({active, onUpdateTab}) {
   const endpoints = ['films', 'people', 'species', 'vehicles']
   return (
       <nav className="nav justify-content-center mt-5 text-monospace">
@@ -48,8 +48,8 @@ function InfoMasonry ({ info }){
 
 InfoMasonry.propTypes = {
   info: PropTypes.array.isRequired,
-
 }
+
 export default class Ghibli extends React.Component {
     constructor(props){
       super(props)
