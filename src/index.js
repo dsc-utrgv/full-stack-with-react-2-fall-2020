@@ -7,7 +7,6 @@ import Ghibli from './components/Ghibli'
 import $ from 'jquery';
 import Popper from 'popper.js';
 
-
 class App extends React.Component {
   render(){
     return (
